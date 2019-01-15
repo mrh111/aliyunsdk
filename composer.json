@@ -7,7 +7,7 @@
             "email": "jinzhan_murenhui@126.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4"
     },
