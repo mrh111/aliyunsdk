@@ -1,0 +1,19 @@
+{
+    "name": "mrh/aliyunsdk",
+    "description": "aliyun php sdk",
+    "authors": [
+        {
+            "name": "renhui mu",
+            "email": "jinzhan_murenhui@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+          "mrh111\\aliyunsdk\\": "src/"
+        }
+    }
+}
