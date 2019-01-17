@@ -1,6 +1,7 @@
 {
     "name": "mrh/aliyunsdk",
     "description": "aliyun php sdk",
+    "keywords": ["aliyun","aliyun core","vod"],
     "authors": [
         {
             "name": "renhui mu",
@@ -9,11 +10,14 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.4"
+        "php": ">=5.6"
     },
     "autoload": {
         "psr-4": {
           "mrh111\\aliyunsdk\\": "src/"
-        }
+        },
+        "files": [
+            "aliyun-php-sdk-core/Config.php"
+        ]
     }
 }
