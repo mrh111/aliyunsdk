@@ -17,7 +17,7 @@
           "mrh111\\aliyunsdk\\": "src/"
         },
         "files": [
-            "aliyun-php-sdk-core/Config.php"
+            "src/aliyun-php-sdk-core/Config.php"
         ]
     }
 }
