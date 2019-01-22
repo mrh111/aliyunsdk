@@ -100,4 +100,10 @@ class AliyunVideo extends Component {
 }
 
 ```
+在方法中调用
 
+```bash
+$video = new common\components\AliyunVideo($accessKeyId,$accessKeySecret);
+$client = $video->client();
+$info = $video->get_play_info($client, $videoId);
+```
