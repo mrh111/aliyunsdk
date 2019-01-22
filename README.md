@@ -1,6 +1,4 @@
 
-aliyun php sdk
-
 ## 简介
 aliyun官方sdk开发包，支持yii2
 
