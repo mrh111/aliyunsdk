@@ -2,19 +2,34 @@
 aliyun php sdk
 
 ## 简介
-aliyun sdk 开发包
+aliyun官方sdk开发包，支持yii2
 
 ## 下载安装
 * 下载
+
 git clone https://github.com/mrh111/aliyunsdk.git
 
 * 安装
-进入　aliyunsdk　目录
+
+进入　aliyunsdk　目录，执行
+
+```bash
+composer require "saviorlv/yii2-dysms:dev-master"
+```
 
 * 项目中的使用
 
-##MaHua是什么?
+> 在config/main.php配置文件中定义component配置信息
+```bash
+'components' => [
+  .....
+  'aliyun' => [
+      'class' => 'saviorlv\aliyun\Sms',
+      'accessKeyId' => '123455',
+      'accessKeySecret' => '122345666'
+    ],
+  ....
+]
 
-一个在线编辑markdown文档的编辑器
+```
 
-向Mac下优秀的markdown编辑器mou致敬
