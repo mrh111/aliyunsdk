@@ -1,11 +1,16 @@
 # aliyunsdk
 aliyun php sdk
-1 标题与文字格式
-标题
-# 这是 H1 <一级标题>
-## 这是 H2 <二级标题>
-###### 这是 H6 <六级标题>
-文字格式
-**这是文字粗体格式**
-*这是文字斜体格式*
-~~在文字上添加删除线~~
+
+## 简介
+aliyun sdk 开发包
+
+## 下载安装
+1、下载
+git clone https://github.com/mrh111/aliyunsdk.git
+
+2、安装
+进入　aliyunsdk　目录
+
+
+3、项目中的使用
+
