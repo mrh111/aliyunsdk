@@ -47,17 +47,11 @@ use vod\Request\V20170321 as Vod;
 
 class AliyunVideo extends Component {
 
-    private $accessKeyId = '';
+    public $accessKeyId = '';
     
-    private $accessKeySecret = '';
+    public $accessKeySecret = '';
     
     private $regionId = 'cn-shanghai';
-
-    public function __construct($accessKeyId, $accessKeySecret)
-    {
-        $this->accessKeyId = $accessKeyId;
-        $this->accessKeySecret = $accessKeySecret;
-    }
 
     /**
      * 初始化
@@ -103,7 +97,7 @@ class AliyunVideo extends Component {
 在方法中调用
 
 ```bash
-$video = new common\components\AliyunVideo($accessKeyId,$accessKeySecret);
+$video = yii::$app->aliyunVod;
 $client = $video->client();
 $info = $video->get_play_info($client, $videoId);
 ```
